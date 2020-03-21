@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 #include <stdlib.h>
-//https://www.eiffel.org/blog/javier/2019/10/wrapping-tensorflow-c-api-wrapc
+#include <stdio.h>
+#include <tensorflow/c/c_api.h>
+//installation guide https://www.eiffel.org/blog/javier/2019/10/wrapping-tensorflow-c-api-wrapc
 using namespace :: std;
  
   int main()
