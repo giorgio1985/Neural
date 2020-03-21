@@ -2,7 +2,7 @@
 #include <string>
 #include <stdlib.h>
 #include <stdio.h>
-#include <tensorflow/c/c_api.h>
+//#include <tensorflow/c/c_api.h>
 
 using namespace :: std;
  
