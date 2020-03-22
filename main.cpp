@@ -2,12 +2,20 @@
 #include <string>
 #include <stdlib.h>
 #include <stdio.h>
-//#include <tensorflow/c/c_api.h>
+#include <tensorflow/c/c_api.h>
+#include "tensor.h"
+
 
 using namespace :: std;
+using std::string;
  
   int main()
   {
+
+   //string tensor :: showSayHello();
+    tensor *t = new tensor();
+    cout<<(t->showSayHello());
+
 
    string guide0 = "\n\n************      Instructions      ***********\n\n";
    string guide1 = "1) Tensorflow c++ installation guide --> https://www.eiffel.org/blog/javier/2019/10/wrapping-tensorflow-c-api-wrapc\n";
