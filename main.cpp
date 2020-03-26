@@ -1,10 +1,24 @@
+#pragma once
 #include <stdlib.h>
 #include <vector>
 #include <stdio.h>
 #include <iostream>
-
+#include "InputLayer.h"
+#include "OutputLayer.h"
 using namespace :: std;
+
 int main() {
-cout <<"Hellooooooo\n";
-return 0;
-} 
+	InputLayer inputL;
+	inputL.numberOfNeuronInLayer = 5;
+	inputL=inputL.initLayer(inputL);
+	inputL.printLayer(inputL);
+
+	OutputLayer outputL;
+	outputL.numberOfNeuronInLayer = 2;
+	outputL = outputL.initLayer(outputL);
+	outputL.printLayer(outputL);
+
+    cout <<"Hello there..";
+
+	getchar();
+}
